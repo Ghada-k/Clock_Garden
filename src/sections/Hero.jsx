@@ -1,7 +1,7 @@
 import { arrowRight } from "../assets/icons"
-import { bigwatche1 } from "../assets/images"
+import { bigwatch1 } from "../assets/images"
 import Button from "../components/Button"
-import WatcheCard from "../components/WatcheCard"
+import WatchCard from "../components/WatchCard"
 import { watches, statistics } from "../constans"
 
 const Hero = () => {
@@ -38,12 +38,12 @@ const Hero = () => {
 
       <div className="relative flex-1 flex justify-center items-center
       xl:min-h-screen max-xl:py-40 bg-primary  bg-hero bg-cover bg-center">
-        <img src={bigwatche1} alt="shoe collection" width={650} 
+        <img src={bigwatch1} alt="shoe collection" width={650} 
         className="object-contain relative z-10" />
         <div>
-          {watches.map((watche)=>(<div key={watche}>
-            <WatcheCard
-              imgUrl={watche} changeBigWatcheImage ={()=>{}} bigShoeImg=""/>
+          {watches.map((watch)=>(<div key={watch}>
+            <watchCard
+              imgUrl={watch} changeBigwatchImage ={()=>{}} bigWatchImg=""/>
           </div>))}
         </div>
       </div>

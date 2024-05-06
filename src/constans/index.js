@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigwatche1, bigwatche2, bigwatche3, customer1, customer2, watche4, watche5, watche6, watche7, thumbnailwatche1, thumbnailwatche2, thumbnailwatche3 } from "../assets/images";
+import { bigwatch1, bigwatch2, bigwatch3, customer1, customer2, watch4, watch5, watch6, watch7, thumbnailwatch1, thumbnailwatch2, thumbnailwatch3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -10,16 +10,16 @@ export const navLinks = [
 
 export const watches = [
     {
-        thumbnail: thumbnailwatche1,
-        bigwatche: bigwatche1,
+        thumbnail: thumbnailwatch1,
+        bigwatch: bigwatch1,
     },
     {
-        thumbnail: thumbnailwatche2,
-        bigwatche: bigwatche2,
+        thumbnail: thumbnailwatch2,
+        bigwatch: bigwatch2,
     },
     {
-        thumbnail: thumbnailwatche3,
-        bigwatche: bigwatche3,
+        thumbnail: thumbnailwatch3,
+        bigwatch: bigwatch3,
     },
 ];
 
@@ -31,22 +31,22 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: watche4,
+        imgURL: watch4,
         name: "clockgarden Air Jordan-01",
         price: "$200.20",
     },
     {
-        imgURL: watche5,
+        imgURL: watch5,
         name: "clockgarden Air Jordan-10",
         price: "$210.20",
     },
     {
-        imgURL: watche6,
+        imgURL: watch6,
         name: "clockgarden Air Jordan-100",
         price: "$220.20",
     },
     {
-        imgURL: watche7,
+        imgURL: watch7,
         name: "clockgarden Air Jordan-001",
         price: "$230.20",
     },

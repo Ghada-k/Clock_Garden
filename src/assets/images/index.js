@@ -1,6 +1,6 @@
-import bigwatche1 from './big-watche1.png'
-import bigwatche2 from './big-watche2.png'
-import bigwatche3 from './big-watche3.png'
+import bigwatch1 from './big-watch1.png'
+import bigwatch2 from './big-watch2.png'
+import bigwatch3 from './big-watch3.png'
 
 import customer1 from './customer1.jpg'
 import customer2 from './customer2.jpg'
@@ -10,21 +10,21 @@ import headerLogo from './headerlogo.png'
 
 import offer from './offer.png'
 
-import watche4 from './watche4.png'
-import watche5 from './watche5.png'
-import watche6 from './watche6.png'
-import watche7 from './watche7.png'
-import watche8 from './watche8.png'
+import watch4 from './watch4.png'
+import watch5 from './watch5.png'
+import watch6 from './watch6.png'
+import watch7 from './watch7.png'
+import watch8 from './watch8.png'
 
 import thumbnailBackground from './thumbnail-background.svg'
-import thumbnailwatche1 from './big-watche1.png'
-import thumbnailwatche2 from './big-watche2.png'
-import thumbnailwatche3 from './big-watche3.png'
+import thumbnailwatch1 from './big-watch1.png'
+import thumbnailwatch2 from './big-watch2.png'
+import thumbnailwatch3 from './big-watch3.png'
 
 export {
-    bigwatche1,
-    bigwatche2,
-    bigwatche3,
+    bigwatch1,
+    bigwatch2,
+    bigwatch3,
 
     customer1,
     customer2,
@@ -33,14 +33,14 @@ export {
     headerLogo,
 
     offer,
-    watche4,
-    watche5,
-    watche6,
-    watche7,
-    watche8,
+    watch4,
+    watch5,
+    watch6,
+    watch7,
+    watch8,
 
     thumbnailBackground,
-    thumbnailwatche1,
-    thumbnailwatche2,
-    thumbnailwatche3
+    thumbnailwatch1,
+    thumbnailwatch2,
+    thumbnailwatch3
 }
