@@ -43,7 +43,7 @@ const Hero = () => {
         <div>
           {watches.map((watch)=>(<div key={watch}>
             <watchCard
-              imgUrl={watch} changeBigwatchImage ={()=>{}} bigWatchImg=""/>
+              imgUrl={Watch} changeBigWatchImage ={()=>{}} bigWatchImg=""/>
           </div>))}
         </div>
       </div>
