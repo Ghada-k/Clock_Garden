@@ -1,10 +1,12 @@
+import { useState } from "react"
 import { arrowRight } from "../assets/icons"
-import { bigwatch1 } from "../assets/images"
+import { bigWatch1 } from "../assets/images"
 import Button from "../components/Button"
 import WatchCard from "../components/WatchCard"
 import { watches, statistics } from "../constans"
 
 const Hero = () => {
+  const [bigWatchImg, setBigWatchImg] = useState(bigWatch1);
   return (
     <section id="home" className="w-full flex xl:flex-row flex-col justify-center 
     min-h-screen gap-10 max-container">
@@ -27,8 +29,8 @@ const Hero = () => {
           <Button label="Shop Now" iconUrl={arrowRight}/>
           <div className="flex justify-starts items-start flex-wrap w-full 
           mt-20 gap-16">
-            {statistics.map((stat)=> (
-              <div key={stat.label}>
+            {statistics.map((stat , index)=> (
+              <div key={index}>
                 <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
                 <p className="leading-7 font-montserrat text-slate-gray">{stat.label}</p>
               </div>
@@ -38,12 +40,16 @@ const Hero = () => {
 
       <div className="relative flex-1 flex justify-center items-center
       xl:min-h-screen max-xl:py-40 bg-primary  bg-hero bg-cover bg-center">
-        <img src={bigwatch1} alt="shoe collection" width={650} 
+        <img src={bigWatchImg} alt="shoe collection" width={650} 
         className="object-contain relative z-10" />
-        <div>
-          {watches.map((watch)=>(<div key={watch}>
-            <watchCard
-              imgUrl={Watch} changeBigWatchImage ={()=>{}} bigWatchImg=""/>
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%]
+        max-sm:px-6">
+          {watches.map((image,index)=>(<div key={index}>
+            <WatchCard
+              index = {index}
+              imgUrl={image} 
+              changeBigWatchImage ={(watch)=> setBigWatchImg(watch)}
+              bigWatchImg={bigWatchImg}/>
           </div>))}
         </div>
       </div>
