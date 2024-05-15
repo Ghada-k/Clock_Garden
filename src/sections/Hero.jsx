@@ -26,7 +26,10 @@ const Hero = () => {
           mt-6 mb-14 sm:max-w-sm pl-5 ">Discover stylish CLOCKGARDEN arrivals, quality comfort, and
             innovation for your life.
           </p>
+          <div className="ml-10">
           <Button label="Shop Now" iconUrl={arrowRight}/>
+
+          </div>
           <div className="flex justify-starts items-start flex-wrap w-full 
           mt-20 gap-16">
             {statistics.map((stat , index)=> (
