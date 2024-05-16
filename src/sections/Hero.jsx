@@ -3,7 +3,7 @@ import { arrowRight } from "../assets/icons"
 import { bigWatch1 } from "../assets/images"
 import Button from "../components/Button"
 import WatchCard from "../components/WatchCard"
-import { watches, statistics } from "../constans"
+import { watches, statistics } from "../constants"
 
 const Hero = () => {
   const [bigWatchImg, setBigWatchImg] = useState(bigWatch1);

@@ -1,5 +1,5 @@
 import PopularProductCard from "../components/PopularProductCard"
-import { products } from "../constans"
+import { products } from "../constants"
 const PopularProducts = () => {
   return (
     <section id="products"

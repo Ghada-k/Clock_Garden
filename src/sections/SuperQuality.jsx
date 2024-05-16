@@ -29,7 +29,7 @@ const SuperQuality = () => {
           </div>
         </div>
         <div className="flex-1 flex justify-center items-center">
-          <img src={watch8} alt="watch8" width={570} height={522} 
+          <img src={watch8} alt="watch8" width={500} height={500} 
             className="object-contain rounded-[20px]"/>
         </div>
       </section>
