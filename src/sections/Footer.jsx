@@ -1,4 +1,3 @@
-import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
@@ -8,10 +7,12 @@ const Footer = () => {
       max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a href="/">
-            <img src={footerLogo} 
-            alt="clock Garden Logo" 
-            width={250}
-            height={50}/>
+            <img 
+              src={footerLogo} 
+              alt="clock Garden Logo" 
+              width={250}
+              height={50}
+            />
           </a>
           <p className="mt-6 text-base leading-7 font-monstserrat
            text-white-400 sm:max-w-sm ">Find your perfect fit and timeless design </p>
@@ -21,7 +22,12 @@ const Footer = () => {
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
                 key={icon.alt}
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <img 
+                  src={icon.src} 
+                  alt={icon.alt} 
+                  width={24} 
+                  height={24} 
+                />
               </div>
             ))}
           </div>

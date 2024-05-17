@@ -6,8 +6,12 @@ const ServiceCard = ({imgURL, label, subtext}) => {
         <div className="w-11 h-11 flex
         justify-center items-center
         bg-coral-red rounded-full">
-            <img src={imgURL} alt={label}
-         width={24} height={24}/>
+            <img 
+               src={imgURL} 
+               alt={label}
+               width={24} 
+               height={24}
+            />
         </div>
         <h3 className="mt-5 font-palanquin
         text-3xl leading-normal font-bold">

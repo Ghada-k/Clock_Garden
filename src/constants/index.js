@@ -33,25 +33,25 @@ export const products = [
     {
         imgURL: watch4,
         rating: "(4.0)",
-        name: "clockgarden Air Jordan-01",
+        name: "CLOCKGARDEN CG-001",
         price: "10000.00 DA",
     },
     {
         imgURL: watch5,
         rating: "(4.8)",
-        name: "clockgarden Air Jordan-10",
+        name: "CLOCKGARDEN CG-010",
         price: "15000.00 DA",
     },
     {
         imgURL: watch6,
         rating: "(4.5)",
-        name: "clockgarden Air Jordan-100",
+        name: "CLOCKGARDEN CG-011",
         price: "9500.00 DA",
     },
     {
         imgURL: watch7,
         rating: "(4.4)",
-        name: "clockgarden Air Jordan-001",
+        name: "CLOCKGARDEN CG-100",
         price: "15500.00 DA",
     },
 ];
@@ -94,12 +94,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "clockgarden Waffle Racer", link: "/" },
-            { name: "clockgarden Cortez", link: "/" },
+            { name: "CLOCKGARDEN CG-000", link: "/" },
+            { name: "CLOCKGARDEN CG-001", link: "/" },
+            { name: "CLOCKGARDEN CG-010", link: "/" },
+            { name: "CLOCKGARDEN CG-011", link: "/" },
+            { name: "CLOCKGARDEN CG-100", link: "/" },
+            { name: "CLOCKGARDEN CG-111", link: "/" },
         ],
     },
     {
