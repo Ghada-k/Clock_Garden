@@ -1,7 +1,7 @@
 const WatchCard = ({ imgURL, changeBigWatchImage, bigWatchImg }) => {
   const handleClick = () => {
     if (bigWatchImg !== imgURL.bigWatch) {
-      changeBigWatchImage(imgURL.bigWatch);
+      changeBigWatchImage(imgURL.bigwatch);
     }
   };
 
@@ -14,7 +14,8 @@ const WatchCard = ({ imgURL, changeBigWatchImage, bigWatchImg }) => {
       } cursor-pointer max-sm:flex-1`}
       onClick={handleClick}
     >
-      <div className='flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4'>
+      
+      <div className='flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4 ml-4'>
         <img
           src={imgURL.thumbnail}
           alt='Watch colletion'

@@ -32,7 +32,7 @@ export const statistics = [
 export const products = [
     {
         imgURL: watch4,
-        rating: "(4.0)",
+        rating: "(4.3)",
         name: "CLOCKGARDEN CG-001",
         price: "10000.00 DA",
     },

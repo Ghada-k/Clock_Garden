@@ -34,7 +34,7 @@ export default {
       },
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
-        'card': "url('assets/images/thumbnail-background.svg')",
+        'card': "url('assets/images/thumbnail-background.png')",
       },
       screens: {
         "wide": "1440px"

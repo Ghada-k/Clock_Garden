@@ -16,7 +16,7 @@ import watch6 from './watch6.png'
 import watch7 from './watch7.png'
 import watch8 from './watch8.jpg'
 
-import thumbnailBackground from './thumbnail-background.svg'
+import thumbnailBackground from './thumbnail-background.png'
 import thumbnailWatch1 from './thumbnail-watch1.png'
 import thumbnailWatch2 from './thumbnail-watch2.png'
 import thumbnailWatch3 from './thumbnail-watch3.png'
