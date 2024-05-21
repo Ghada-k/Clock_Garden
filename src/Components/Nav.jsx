@@ -16,7 +16,7 @@ const Nav = () => {
         </a>
         <ul className="flex-1  justify-center items-center gap-16 hidden lg:flex">
           {navLinks.map((item) => (
-            <li key={item.label}>
+            <li key={item.id}>
               <a href={item.href} className="font-mono errat leading-normal text-lg text-slate-gray hover:text-primary transition duration-300">
                 {item.label}
               </a>
@@ -33,7 +33,7 @@ const Nav = () => {
 
             <ul className="mt-12 space-y-4">
               {navLinks.map((item) => (
-                <li key={item.label}>
+                <li key={item.id}>
                   <a href={item.href} className="block py-4 px-6 bg-gray-200 rounded-full text-center text-lg text-gray-700 hover:bg-gray-300 transition duration-300">
                     {item.label}
                   </a>

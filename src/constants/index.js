@@ -2,10 +2,10 @@ import { facebook, instagram, shieldTick, support, truckFast, twitter } from "..
 import { bigWatch1, bigWatch2, bigWatch3, customer1, customer2, watch4, watch5, watch6, watch7, thumbnailWatch1, thumbnailWatch2, thumbnailWatch3 } from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { id:'1', href: "#home", label: "Home" },
+    { id:'2',href: "#about-us", label: "About Us" },
+    { id:'3',href: "#products", label: "Products" },
+    { id:'4',href: "#contact-us", label: "Contact Us" },
 ];
 
 export const watches = [
